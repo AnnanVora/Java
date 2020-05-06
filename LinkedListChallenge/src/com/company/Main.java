@@ -1,12 +1,10 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.ListIterator;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
+    private static Scanner scanner = new Scanner(System.in);
     private static ArrayList<Album> albums = new ArrayList<Album>();
 
     public static void main(String[] args) {
@@ -46,83 +44,165 @@ public class Main {
         albums.get(1).addToPlaylist(2, playlist);
         albums.get(1).addToPlaylist(24, playlist); // Does not exists
 
-        play(playlist);
+        play(playlist, false);
     }
 
-    private static void play(LinkedList<Song> playlist)  {
+    private static void play(LinkedList<Song> playlist, boolean shuffle)  {
 
-        Scanner scanner = new Scanner(System.in);
         boolean quit = false;
-        boolean goingForward = true;
 
-        ListIterator<Song> listIterator = playlist.listIterator();
-        if (playlist.size() == 0) {
-            System.out.println("No songs in playlist");
-        } else {
-            System.out.println("Now playing -> " + listIterator.next().toString());
-        }
+        if (!shuffle) {
 
-        while (!quit) {
-            int action = scanner.nextInt();
-            scanner.nextLine();
+            boolean goingForward = true;
 
-            switch (action) {
-                case 0: // When quiting the playlist
-                    System.out.println("Playlist complete");
-                    quit = true;
-                    break;
-                case 1: // To go forward
+            ListIterator<Song> listIterator = playlist.listIterator();
+            if (playlist.size() == 0) {
+                System.out.println("No songs in playlist");
+            } else {
+                System.out.println("Now playing -> " + listIterator.next().toString());
+            }
+            printMenu(false);
 
-                    if (!goingForward) {
+            while (!quit) {
+                int action = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (action) {
+                    case 0: // To quit the playlist
+                        System.out.println("Playlist complete");
+                        quit = true;
+                        break;
+                    case 1: // To go forward
+
+                        if (!goingForward) {
+                            if (listIterator.hasNext()) {
+                                listIterator.next();
+                            }
+                            goingForward = true;
+                        }
+
                         if (listIterator.hasNext()) {
-                            listIterator.next();
+                            System.out.println("Now playing -> " + listIterator.next().toString());
+                        } else {
+                            System.out.println("You have reached the end of the list");
+                            goingForward = false;
                         }
-                        goingForward = true;
-                    }
+                        break;
+                    case 2: // To go backward
 
-                    if (listIterator.hasNext()) {
-                        System.out.println("Now playing -> " + listIterator.next().toString());
-                    } else {
-                        System.out.println("You have reached the end of the list");
-                        goingForward = false;
-                    }
-                    break;
-                case 2: // To go backward
+                        if (goingForward) {
+                            if (listIterator.hasPrevious()) {
+                                listIterator.previous();
+                            }
+                            goingForward = false;
+                        }
 
-                    if (goingForward) {
                         if (listIterator.hasPrevious()) {
-                            listIterator.previous();
+                            System.out.println("Now playing -> " + listIterator.previous().toString());
+                        } else {
+                            System.out.println("You are at the beginning of the playlist");
+                            goingForward = true;
                         }
-                        goingForward = false;
-                    }
+                        break;
+                    case 3:
 
-                    if (listIterator.hasPrevious()) {
-                        System.out.println("Now playing -> " + listIterator.previous().toString());
-                    } else {
-                        System.out.println("You are at the beginning of the playlist");
-                        goingForward = true;
-                    }
-                    break;
-                case 3:
-                    break;
-                case 4: // To print the list of songs in the playlist
-                    printList(playlist);
-                    break;
-                case 5: // To print the options to choose from
-                    printMenu();
-                    break;
+                        if (goingForward) {
+                            if (listIterator.hasPrevious()) {
+                                System.out.println("Now replaying -> " + listIterator.previous().toString());
+                                goingForward = false;
+                            } else {
+                                System.out.println("You are at the start of the list");
+                            }
+                        } else {
+                            if (listIterator.hasNext()) {
+                                System.out.println("Now replaying -> " + listIterator.next().toString());
+                                goingForward = true;
+                            } else {
+                                System.out.println("You are at the end of the list");
+                            }
+                        }
+                        break;
+                    case 4: // To print the list of songs in the playlist
+                        printList(playlist);
+                        break;
+                    case 5: // To print the options to choose from
+                        printMenu(false);
+                        break;
+                    case 6: // To remove the current song from the playlist
+                        if (playlist.size() > 0) {
+                            listIterator.remove();
+                            if (listIterator.hasNext()) {
+                                System.out.println("Now playing -> " + listIterator.next().toString());
+                            } else if (listIterator.hasPrevious()){
+                                System.out.println("Now playing -> " + listIterator.previous().toString());
+                            }
+                        }
+                        break;
+                }
+            }
+        } else {
+            int randomSong = (int) (Math.random() * playlist.size());
+
+            if (playlist.size() == 0) {
+                System.out.println("No songs in playlist");
+            } else {
+                System.out.println("Now playing -> " + playlist.get(randomSong).toString());
+            }
+            printMenu(true);
+
+            while (!quit) {
+                int action = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (action) {
+                    case 0: // To quit the playlist
+                        System.out.println("Playlist complete");
+                        quit = true;
+                        break;
+                    case 1: // To play the next song
+                        randomSong = (int) (Math.random() * playlist.size());
+                        System.out.println("Now playing -> " + playlist.get(randomSong).toString());
+                        break;
+                    case 2: // To print the options to choose from
+                        printMenu(true);
+                        break;
+                    case 3: // To print the list of songs in the playlist
+                        printList(playlist);
+                        break;
+                }
             }
         }
     }
 
-    private static void printMenu() {
+    private static void printMenu(boolean isShuffle) {
 
-        System.out.println("Available options: ");
-        System.out.println("Press 0 - To quit the playlist");
-        System.out.println("Press 1 - To play the next song");
-        System.out.println("Press 2 - To play the previous song");
-        System.out.println("Press 3 - To ***********************************************************");
-        System.out.println("Press 4 - To print the list of songs in the playlist");
-        System.out.println("Press 5 - To print the options to choose from");
+        if (!isShuffle) {
+            System.out.println("Available options: ");
+            System.out.println("Press 0 - To quit the playlist");
+            System.out.println("Press 1 - To play the next song");
+            System.out.println("Press 2 - To play the previous song");
+            System.out.println("Press 3 - To replay the song");
+            System.out.println("Press 4 - To print the list of songs in the playlist");
+            System.out.println("Press 5 - To print the options to choose from");
+            System.out.println("Press 6 - To remove the current song from the playlist");
+        } else {
+            System.out.println("Available options: ");
+            System.out.println("Press 0 - To quit the playlist");
+            System.out.println("Press 1 - To play the next song");
+            System.out.println("Press 2 - To print the options to choose from");
+            System.out.println("Press 3 - To remove the current song from the playlist");
+
+        }
+
+    }
+
+    public static void printList(LinkedList<Song> playlist) {
+        Iterator<Song> iterator = playlist.iterator();
+        System.out.println("==================================");
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().toString());
+        }
+        System.out.println("==================================");
+
     }
 }
