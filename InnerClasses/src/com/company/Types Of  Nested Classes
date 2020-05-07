@@ -1,0 +1,62 @@
+Static Nested Class :-
+
+>>> Mainly used to associate a class with its outer class.
+>>> Think of it as a top level class,
+>>> but it is placed in it's outer class rather than in the package.
+>>> It cannot access non-static methods or
+>>> members of it's outer class;
+>>> without creating an instance(object) of that class.
+
+
+Non-Static Nested Class (Inner Class) :-
+
+>>> Used when required to directly refer to the outer class.
+>>> Eg. Gearbox(Outer Class) with Gear(Inner Class).
+>>> Doesn't make sense to use a gear without the context of a gearbox.
+>>> Writing example (Gearbox: Outer Class, Gear: Inner Class):
+>>>
+>>> Gearbox mcLaren = new Gearbox('Constructor parameters');
+    Gearbox.Gear first = mcLaren.new Gear('Constructor parameters');
+
+
+Local Class (Inner Class in a Scope block) :-
+
+>>> Declared inside a block such as a method or an if statement.
+>>> Their scope restricted completely to that particular block only.
+>>> Good practice of encapsulation but not of any great practical use.
+>>> Used as a comparator when sorting objects.
+>>> Writing example :
+>>>
+>>> public static void main(String[] args) {
+
+            class ClickListener implements Button.OnClickListener {     // local class
+
+                public ClickListener() {
+
+                    System.out.println("I've been attached");
+
+                }
+                {...}
+
+            }
+            {...}
+    }
+
+
+Anonymous Nested Class (Without a Class name) :-
+
+>>> An anonymous class is also a local class.
+>>> They need to be declared an instantiated at the same time because they don't have a name.
+>>> They are used when a local class is required only once.
+>>> Very commonly used with event-handlers and buttons in a user interface.
+>>> Used in Android app building.
+>>> Writing example :
+>>>
+>>> btnPrint.setOnClickListener (new Button.OnClickListener() {
+
+        @Override
+        public void onClick(String title) {
+
+            System.out.println(title + " was clicked");
+        }
+    });
