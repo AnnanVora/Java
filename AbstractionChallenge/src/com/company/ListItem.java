@@ -12,9 +12,9 @@ public abstract class ListItem {
     }
 
     abstract ListItem next();
-    abstract ListItem setNext(ListItem tem);
+    abstract ListItem setNext(ListItem item);
     abstract ListItem previous();
-    abstract ListItem setPrevious();
+    abstract ListItem setPrevious(ListItem item);
 
     abstract int compareTo(ListItem item);
 
