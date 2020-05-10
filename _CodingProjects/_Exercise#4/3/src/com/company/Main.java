@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] values = new int[] {1, 2, 3, 4};
-        int[] values2 = new int[] {3, 4, 5, 6, 7 , 8};
+        int[] values = new int[] {1, 2, 12};
+        int[] values2 = new int[] {2, 3, 12, 13};
 
         System.out.println(Arrays.toString(merge(values, values2)));
     }

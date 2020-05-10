@@ -4,28 +4,36 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] values = new int[] {14, 33, 27, 10, 35, 19, 42, 44};
-        for (int i = 0; i < values.length; i++) {
-            System.out.println(sortUsingInsert(values)[i]);
+        int[] values = new int[100];
+        for (int i = 0; i < values.length; ++i) {
+            values[i] = (int) (Math.random() * 100 + 1);
         }
+        int numComparisons = sortUsingInsert(values);
+
+        for (int value : values) {
+            System.out.println(value);
+        }
+        System.out.println("Num Comparisons: " + numComparisons);
     }
 
-    public static int[] sortUsingInsert(int[] array) {
+    public static int sortUsingInsert(int[] array) {
 
-        int element;
+        int index;
         int value;
+        int comparisons = 0;
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length; ++i) {
             value = array[i];
-            element = i;
+            index = i;
 
-            while (element > 0 && array[element - 1] > value) {
-                array[element] = array[element - 1];
-                element = element - 1;
+            while (index > 0 && array[index - 1] > value) {
+                array[index] = array[index - 1];
+                --index;
+                ++comparisons;
             }
 
-            array[element] = value;
+            array[index] = value;
         }
-        return array;
+        return comparisons;
     }
 }

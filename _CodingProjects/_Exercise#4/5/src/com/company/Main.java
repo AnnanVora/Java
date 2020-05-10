@@ -9,30 +9,39 @@ public class Main {
         ArrayList<Integer> values = new ArrayList<>();
         ArrayList<Integer> values2 = new ArrayList<>();
         values.add(1);
+        values.add(2);
         values.add(3);
+        values.add(4);
         values.add(5);
         values.add(6);
-        values.add(2);
-        values.add(5);
-        values.add(7);
 
         values2.add(3);
         values2.add(4);
+        values2.add(5);
         values2.add(6);
-        values2.add(2);
 
         System.out.println(subSeqIdx(values, values2));
     }
 
     public static int subSeqIdx(ArrayList<Integer> array, ArrayList<Integer> array2) {
 
+        boolean firstTime = false;
+        boolean first = true;
         ArrayList<Integer> temp = new ArrayList<>();
+        int x = 0;
+        for (int i = 0; i <= array2.size() - 1; i++) {
 
-        for (int i = 0; i <= array2.size(); i++) {
+            if (array.contains(array2.get(i)) && first) {
+                firstTime = true;
+                first = false;
+            }
 
-            if (array2.contains(array.get(i))) {
+            if (array.contains(array2.get(i)) && firstTime) {
                 temp.add(1);
-                final int x = i;
+                x = array.indexOf(array2.get(i));
+                firstTime = false;
+            } else if (array2.contains(array.get(i))){
+                temp.add(1);
             }
         }
 
