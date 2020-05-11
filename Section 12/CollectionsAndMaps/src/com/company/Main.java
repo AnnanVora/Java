@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main {
 
- public static void main(String[] args) {
+    public static void main(String[] args) {
 
         Theatre theatre = new Theatre("PVR Versova", 8, 12);
         if (theatre.reserveSeat("D12")) {
@@ -37,17 +37,4 @@ public class Main {
         System.out.println();
         System.out.println("=");
     }
-
-   public static void printList(List<Theatre.Seat> list) {
-       for (Theatre.Seat seat : list) {
-           System.out.print(" " + seat.getSeatNumber() + " " + seat.getPrice());
-       }
-       System.out.println();
-       for (int i = 0; i < 1000; i++) {
-           System.out.print("=");
-       }
-       System.out.println();
-       System.out.println("=");
-   }
-
 }
