@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Spliterator;
 
 public class Location {
 
@@ -13,17 +14,16 @@ public class Location {
         this.locationID = locationID;
         this.description = description;
         this.exits = new HashMap<>();
+        this.exits.put("Q", 0);
     }
 
-    public void addExit(String direction, int location) {
-        exits.put(direction, location);
+    public void addExit(String direction, int location) {exits.put(direction, location);
     }
 
-    public int getLocationID() {
-        return locationID;
+    public int getLocationID() { return locationID;
     }
 
-    public String getDescription() {
+    public String getDescription(){
         return description;
     }
 
