@@ -67,7 +67,7 @@ public class Main {
         Map<String, Integer> tempExit;
 
         tempExit = new HashMap<>();
-        locations.put(0, new Location(0, "You are sitting in front of a computer learning Java", tempExit));
+        locations.put(0, new Location(0, "You are sitting in front of a computer learning Java", null));
 
         tempExit.put("W", 2);
         tempExit.put("E", 3);

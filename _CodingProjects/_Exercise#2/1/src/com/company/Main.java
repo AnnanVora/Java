@@ -13,9 +13,9 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        long number = 0;
+        double number;
         while (true) {
-            long factorial = 1;
+            double factorial = 1;
             System.out.println("Enter a number");
             boolean hasNext;
             hasNext = scanner.hasNextLong();
@@ -34,9 +34,9 @@ public class Main {
 
                 boolean isTooLarge = false;
 
-                for (long i = number; i >= 1; --i) {
+                for (double i = number; i >= 1; --i) {
 
-                    if (((double) factorial * i) > Long.MAX_VALUE) {
+                    if (factorial * i > Double.MAX_VALUE) {
                         System.out.println(number + "! = Too large");
                         isTooLarge = true;
                         break;

@@ -1,5 +1,6 @@
 package com.company;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
         boolean isInt = scanner.hasNextInt();
         int end = scanner.nextInt();
         double fraction = 0;
+        
 
         if (isInt) {
 
