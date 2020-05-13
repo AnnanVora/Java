@@ -72,36 +72,5 @@ public class Main {
         temp = new DwarfPlanet("Pluto", 90668);
         solarSystem.put(temp.getKey(), temp);
         planets.add(temp);
-
-        System.out.println("Planets");
-        for (HeavenlyBody planet : planets) {
-            System.out.println("\t" + planet.getKey());
-        }
-
-        HeavenlyBody body = solarSystem.get(HeavenlyBody.makeKey("Mars", HeavenlyBody.BodyTypes.PLANET));
-        System.out.println("Moons of " + body.getKey() + " are");
-        for (HeavenlyBody jupiterMoon : body.getSatellites()) {
-            System.out.println("\t" + jupiterMoon.getKey());
-        }
-
-        Set<HeavenlyBody> moons = new HashSet<>();
-        for (HeavenlyBody planet : planets) {
-            moons.addAll(planet.getSatellites());
-        }
-
-        System.out.println("All moons");
-        for (HeavenlyBody moon : moons) {
-            System.out.println("\t" + moon.getKey());
-        }
-
-        for (HeavenlyBody planet : planets) {
-            System.out.println(planet);
-        }
-
-        HeavenlyBody earth1 = new Planet("Earth", 365);
-        HeavenlyBody earth2 = new Planet("Earth", 365);
-        System.out.println(earth1.equals(earth2));
-        System.out.println(earth2.equals(earth1));
-        System.out.println(earth1.equals());
     }
 }
