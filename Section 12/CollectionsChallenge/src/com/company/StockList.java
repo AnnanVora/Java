@@ -1,6 +1,8 @@
 package com.company;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class StockList {
     private final Map<String, StockItem> list;
@@ -22,10 +24,17 @@ public class StockList {
     }
 
     public int sellStock(String item, int quantity) {
-        StockItem inStock = list.getOrDefault(item, null);
-        if ((inStock != null) && (inStock.quantityInStock() >= quantity) && (quantity > 0)) {
-            inStock.adjustStock(-quantity);
-            return quantity;
+//        StockItem inStock = list.getOrDefault(item, null);
+//        if ((inStock != null) && (inStock.quantityInStock() >= quantity) && (quantity > 0)) {
+//            inStock.adjustStock(-quantity);
+//            return quantity;
+//        }
+//        return 0;
+//
+
+        StockItem inStock = list.get(item);
+        if (inStock != null && quantity > 0) {
+            return inStock.finalizeStock(quantity);
         }
         return 0;
     }
@@ -44,6 +53,22 @@ public class StockList {
             prices.put(item.getKey(), item.getValue().getPrice());
         }
         return Collections.unmodifiableMap(prices);
+    }
+
+    public int reserveStock(String item, int quantity) {
+        StockItem inStock = list.get(item);
+        if (inStock != null && quantity > 0) {
+            return inStock.reserveStock(quantity);
+        }
+        return 0;
+    }
+
+    public int unreserveStock(String item, int quantity) {
+        StockItem inStock = list.get(item);
+        if (inStock != null && quantity > 0) {
+            return inStock.unreserveStock(quantity);
+        }
+        return 0;
     }
 
     @Override
