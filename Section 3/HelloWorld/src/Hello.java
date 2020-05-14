@@ -1,7 +1,7 @@
 public class Hello {
 
     public static void main(String[] args) {
-        System.out.println("Hello,Annan");
+        System.out.println("Hello, Annan");
 
         int myFirstNumber = (10 + 5) + (2 * 10);
         int mySecondNumber = 12;
