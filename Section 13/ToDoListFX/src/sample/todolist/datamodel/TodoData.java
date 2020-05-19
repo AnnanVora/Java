@@ -10,8 +10,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Iterator;
-import java.util.List;
 
 public class TodoData {
 
@@ -23,6 +21,7 @@ public class TodoData {
     public static TodoData getInstance() {
         return instance;
     }
+
     private TodoData() {
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
@@ -59,16 +58,23 @@ public class TodoData {
 
     public void storeTodoItems() throws IOException {
         Path path = Paths.get(filename);
-        try (BufferedWriter bw = Files.newBufferedWriter(path)) {
-            Iterator<TodoItem> iter = todoItems.iterator();
-            while (iter.hasNext()) {
-                TodoItem item = iter.next();
+	    BufferedWriter bw = Files.newBufferedWriter(path);
+        
+	    try  {
+            for (TodoItem item : todoItems) {
                 bw.write(String.format("%s;%s;%s",
                         item.getShortDescription(),
                         item.getDetails(),
                         item.getDeadLine().format(formatter)));
                 bw.newLine();
             }
+
+        } finally {
+            bw.close();
         }
+    }
+
+    public void deleteTodoItem(TodoItem item) {
+        todoItems.remove(item);
     }
 }
