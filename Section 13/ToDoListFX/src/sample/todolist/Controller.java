@@ -1,7 +1,9 @@
 package sample.todolist;
 
+import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
+import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -21,6 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.function.Predicate;
 
 public class Controller {
 
@@ -34,9 +37,15 @@ public class Controller {
     @FXML
     private BorderPane mainBorderPane;
     @FXML
-    private ContextMenu listContextMenu;
-    @FXML
     private Toggle filterToggleButton;
+
+    private ContextMenu listContextMenu;
+
+    private FilteredList<TodoItem> filteredList;
+
+    private Predicate<TodoItem> wantAllItems;
+
+    private Predicate<TodoItem> wantTodayItems;
 
     public void initialize() {
 
@@ -63,7 +72,23 @@ public class Controller {
             }
         });
 
-        SortedList<TodoItem> sortedList = new SortedList<>(TodoData.getInstance().getTodoItems(),
+        wantAllItems = new Predicate<>() {
+            @Override
+            public boolean test(TodoItem item) {
+                return true;
+            }
+        };
+
+        wantTodayItems = new Predicate<>() {
+            @Override
+            public boolean test(TodoItem item) {
+                return item.getDeadLine().equals(LocalDate.now());
+            }
+        };
+
+        filteredList = new FilteredList<>(TodoData.getInstance().getTodoItems(), wantAllItems);
+
+        SortedList<TodoItem> sortedList = new SortedList<>(filteredList,
                 new Comparator<>() {
                     @Override
                     public int compare(TodoItem o1, TodoItem o2) {
@@ -156,11 +181,26 @@ public class Controller {
 
     @FXML
     public void handleFilterToggle() {
+        TodoItem selectedItem = todoListView.getSelectionModel().getSelectedItem();
         if (filterToggleButton.isSelected()) {
-
+            filteredList.setPredicate(wantTodayItems);
+            if (filteredList.isEmpty()) {
+                itemDetailsTextArea.clear();
+                deadLineLabel.setText("");
+            } else if (filteredList.contains(selectedItem)){
+                todoListView.getSelectionModel().select(selectedItem);
+            } else {
+                todoListView.getSelectionModel().selectFirst();
+            }
         } else {
-
+            filteredList.setPredicate(wantAllItems);
+            todoListView.getSelectionModel().select(selectedItem);
         }
+    }
+
+    @FXML
+    public void handleExit() {
+        Platform.exit();
     }
 
     public void deleteItem(TodoItem item) {
