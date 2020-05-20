@@ -65,7 +65,7 @@ public class Controller {
             public void changed(ObservableValue<? extends TodoItem> observableValue, TodoItem todoItem, TodoItem newValue) {
                 if (newValue != null) {
                     TodoItem item = todoListView.getSelectionModel().getSelectedItem();
-                    itemDetailsTextArea.setText(item.getDetails());
+                    itemDetailsTextArea.setText(item.getDetails().replaceAll("###", "\n"));
                     DateTimeFormatter df = DateTimeFormatter.ofPattern("MMMM d, yyyy");
                     deadLineLabel.setText(df.format(item.getDeadLine()));
                 }

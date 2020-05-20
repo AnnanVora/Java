@@ -45,7 +45,7 @@ public class TodoData {
             while ((input = br.readLine()) != null) {
                 String[] itemPieces = input.split(";");
                 String shortDescription = itemPieces[0];
-                String details = itemPieces[1];
+                String details = itemPieces[1].replaceAll("###", "\n");
                 String dateString = itemPieces[2];
                 LocalDate date = LocalDate.parse(dateString, formatter);
                 TodoItem todoItem = new TodoItem(shortDescription, details, date);

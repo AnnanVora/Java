@@ -21,7 +21,7 @@ public class DialogController {
 
     public TodoItem processResults() {
         String shortDescription = shortDescriptionField.getText().trim();
-        String details = detailsArea.getText().trim();
+        String details = detailsArea.getText().replaceAll("\n", "###").trim();
         LocalDate deadlineValue = deadlinePicker.getValue();
 
         TodoItem newItem = new TodoItem(shortDescription, details, deadlineValue);
