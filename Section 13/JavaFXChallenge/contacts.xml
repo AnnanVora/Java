@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Annan</first_name>
+	<last_name>Vora</last_name>
+	<phone_number>9833617163</phone_number>
+	<notes>Annan</notes>
+</contact>
+<contact>
+	<first_name>Rashi</first_name>
+	<last_name>Vora</last_name>
+	<phone_number>9820987005</phone_number>
+	<notes>mom</notes>
+</contact>
+</contacts>

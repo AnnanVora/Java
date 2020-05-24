@@ -17,17 +17,16 @@ import javafx.scene.paint.Color;
 import javafx.util.Callback;
 import sample.todolist.datamodel.TodoData;
 import sample.todolist.datamodel.TodoItem;
+
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
 public class Controller {
 
-    private List<TodoItem> todoItems;
     @FXML
     private ListView<TodoItem> todoListView;
     @FXML
@@ -169,14 +168,6 @@ public class Controller {
         if (selectedItem != null && keyEvent.getCode().equals(KeyCode.DELETE)) {
             deleteItem(selectedItem);
         }
-    }
-
-    @FXML
-    public void handleClickListView() {
-        TodoItem item = todoListView.getSelectionModel().getSelectedItem();
-
-        itemDetailsTextArea.setText(item.getDetails());
-        deadLineLabel.setText(item.getDeadLine().toString());
     }
 
     @FXML
