@@ -9,7 +9,6 @@ import javafx.scene.control.TableView;
 import javafx.scene.layout.BorderPane;
 import sample.datamodel.Contact;
 import sample.datamodel.ContactData;
-
 import java.io.IOException;
 import java.util.Optional;
 

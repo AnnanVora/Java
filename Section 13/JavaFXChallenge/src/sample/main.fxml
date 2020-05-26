@@ -1,28 +1,20 @@
 <?import javafx.scene.layout.BorderPane?>
-
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuItem?>
+
 <BorderPane fx:id="mainPanel" fx:controller="sample.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <MenuBar>
-            <menus>
-                <Menu text="Contacts">
-                    <items>
-                        <MenuItem text="Add..." onAction="#showAddContactDialog"/>
-                    </items>
-                    <items>
-                        <MenuItem text="Edit..." onAction="#showEditContactDialog"/>
-                    </items>
-                    <items>
-                        <MenuItem text="Delete" onAction="#deleteContact"/>
-                    </items>
-                </Menu>
-            </menus>
+            <Menu text="Contacts">
+                <MenuItem text="Add..." onAction="#showAddContactDialog"/>
+                <MenuItem text="Edit..." onAction="#showEditContactDialog"/>
+                <MenuItem text="Delete" onAction="#deleteContact"/>
+            </Menu>
         </MenuBar>
     </top>
 
