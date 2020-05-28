@@ -33,11 +33,6 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-//        Iterable<FileStore> stores = FileSystems.getDefault().getFileStores();
-//        for (FileStore store : stores) {
-//            System.out.println(store.name());
-//            System.out.println("Volume name/Drive letter" + store);
-//        }
 
         Iterable<Path> rootPaths = FileSystems.getDefault().getRootDirectories();
         for (Path path : rootPaths) {
@@ -50,6 +45,44 @@ public class Main {
             Files.walkFileTree(dir2Path, new PrintFiles());
         } catch (IOException e) {
             System.out.println(e.getMessage());
+        }
+
+        System.out.println("***********Copy Dir2 to Dir4\\Dir2Copy***********");
+        Path copyPath = FileSystems.getDefault().getPath("FileTree" + File.separator + "Dir4" + File.separator + "Dir2Copy");
+        try {
+            Files.walkFileTree(dir2Path, new CopyFiles(dir2Path, copyPath));
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+
+        File file = new File("C:\\Examples\\file.txt");
+        Path convertedPath = file.toPath();
+        System.out.println("Converted Path = " + convertedPath);
+
+        File parent = new File("C:\\Examples");
+        File resolvedFile = new File(parent, "dir\\file.txt");
+        System.out.println(resolvedFile.toPath());
+        resolvedFile = new File("C:\\Examples", "dir\\file.txt");
+        System.out.println(resolvedFile.toPath());
+
+        Path parentPath = Paths.get("C:\\Examples");
+        Path childRelativePath = Paths.get("dir\\file.txt");
+        System.out.println(parentPath.resolve(childRelativePath));
+
+        File workingDirectory = new File("").getAbsoluteFile();
+        System.out.println("Working directory = " + workingDirectory.getAbsolutePath());
+
+        System.out.println("****************using list()**********************");
+        File dir2File = new File(workingDirectory, "\\FileTree\\Dir2");
+        String[] dir2Contents = dir2File.list();
+        for (int i = 0; i < dir2Contents.length; i++) {
+            System.out.println("i = " + i + ": " + dir2Contents[i]);
+        }
+
+        System.out.println("****************using listFiles()********************");
+        File[] dir2Files = dir2File.listFiles();
+        for (int i = 0; i < dir2Files.length; i++) {
+            System.out.println("i = " + i + ": " + dir2Files[i].getName());
         }
     }
 }
