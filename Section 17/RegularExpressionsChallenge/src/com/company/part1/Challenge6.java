@@ -1,4 +1,4 @@
-package com.company;
+package com.company.part1;
 
 public class Challenge6 {
 
