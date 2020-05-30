@@ -9,7 +9,7 @@ public class Challenge14 {
 
         String challenge14 = "11111";
         String challenge14_2 = "11111-1111";
-        Pattern pattern = Pattern.compile("\\d{5}-*?\\d{4}?");
+        Pattern pattern = Pattern.compile("\\d{5}(-\\d{4})?$");
         Matcher matcher = pattern.matcher(challenge14);
         Matcher matcher1 = pattern.matcher(challenge14_2);
 
