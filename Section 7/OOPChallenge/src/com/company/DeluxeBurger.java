@@ -35,5 +35,28 @@ public class DeluxeBurger extends BaseBurger {
         System.out.println("chips -> \u20b9 50");
     }
 
+    @Override
+    public void chooseAddOns(String selectedAddOn1, String selectedAddOn2, String selectedAddOn3, String selectedAddOn4) {
+        System.out.println("No add ons are available for this burger");
+    }
 
+    @Override
+    public void chooseAddOns(String selectedAddOn1, String selectedAddOn2, String selectedAddOn3) {
+        System.out.println("No add ons are available for this burger");
+    }
+
+    @Override
+    public void chooseAddOns(String selectedAddOn1, String selectedAddOn2) {
+        System.out.println("No add ons are available for this burger");
+    }
+
+    @Override
+    public void chooseAddOns(String selectedAddOn1) {
+        System.out.println("No add ons are available for this burger");
+    }
+
+    @Override
+    public void showAddOns() {
+        System.out.println("No add ons are available for this burger");
+    }
 }
