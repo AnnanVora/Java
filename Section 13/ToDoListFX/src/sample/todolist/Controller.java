@@ -17,7 +17,6 @@ import javafx.scene.paint.Color;
 import javafx.util.Callback;
 import sample.todolist.datamodel.TodoData;
 import sample.todolist.datamodel.TodoItem;
-
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -36,7 +35,7 @@ public class Controller {
     @FXML
     private BorderPane mainBorderPane;
     @FXML
-    private Toggle filterToggleButton;
+    private ToggleButton filterToggleButton;
 
     private ContextMenu listContextMenu;
 

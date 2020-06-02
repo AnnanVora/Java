@@ -2,106 +2,88 @@ package sample.datamodel;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javax.xml.stream.XMLEventFactory;
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLEventWriter;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLOutputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.Characters;
-import javax.xml.stream.events.EndElement;
-import javax.xml.stream.events.StartDocument;
-import javax.xml.stream.events.StartElement;
-import javax.xml.stream.events.XMLEvent;
+import javax.xml.stream.*;
+import javax.xml.stream.events.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 
+public class ItemData {
+    
+    public static final String ITEMS_FILE = "items.xml";
+    public static final String ITEM = "item";
+    public static final String NAME = "name";
+    public static final String QUANTITY = "quantity";
+    public static final String URGENT = "urgent";
+    private ObservableList<Item> items;
 
-public class ContactData {
-
-    private static final String CONTACTS_FILE = "contacts.xml";
-    private static final String CONTACT = "contact";
-    private static final String FIRST_NAME = "first_name";
-    private static final String LAST_NAME = "last_name";
-    private static final String PHONE_NUMBER = "phone_number";
-    private static final String NOTES = "notes";
-
-    private ObservableList<Contact> contacts;
-
-    public ContactData() {
-        contacts = FXCollections.observableArrayList();
+    public ItemData() {
+        items = FXCollections.observableArrayList();
     }
 
-    public ObservableList<Contact> getContacts() {
-        return contacts;
+    public ObservableList<Item> getItems() {
+        return items;
     }
 
-    public void addContact(Contact contact) {
-        contacts.add(contact);
+    public void addItem(Item item) {
+        items.add(item);
     }
 
-    public void deleteContact(Contact contact) {
-        contacts.remove(contact);
+    public void deleteItem(Item item) {
+        items.remove(item);
     }
 
-    public void loadContacts() {
+    public void loadItems() {
         try {
             // First, create a new XMLInputFactory
             XMLInputFactory inputFactory = XMLInputFactory.newInstance();
             // Setup a new eventReader
-            InputStream in = new FileInputStream(CONTACTS_FILE);
+            InputStream in = new FileInputStream(ITEMS_FILE);
             XMLEventReader eventReader = inputFactory.createXMLEventReader(in);
             // read the XML document
-            Contact contact = null;
+            Item item = null;
 
             while (eventReader.hasNext()) {
                 XMLEvent event = eventReader.nextEvent();
 
                 if (event.isStartElement()) {
                     StartElement startElement = event.asStartElement();
-                    // If we have a contact item, we create a new contact
-                    if (startElement.getName().getLocalPart().equals(CONTACT)) {
-                        contact = new Contact();
+                    // If we have a item item, we create a new item
+                    if (startElement.getName().getLocalPart().equals(ITEM)) {
+                        item = new Item();
                         continue;
                     }
 
                     if (event.isStartElement()) {
                         if (event.asStartElement().getName().getLocalPart()
-                                .equals(FIRST_NAME)) {
+                                .equals(NAME)) {
                             event = eventReader.nextEvent();
-                            contact.setFirstName(event.asCharacters().getData());
+                            item.setName(event.asCharacters().getData());
                             continue;
                         }
                     }
+
                     if (event.asStartElement().getName().getLocalPart()
-                            .equals(LAST_NAME)) {
+                            .equals(QUANTITY)) {
                         event = eventReader.nextEvent();
-                        contact.setLastName(event.asCharacters().getData());
+                        item.setQuantity(event.asCharacters().getData());
                         continue;
                     }
 
                     if (event.asStartElement().getName().getLocalPart()
-                            .equals(PHONE_NUMBER)) {
+                            .equals(URGENT)) {
                         event = eventReader.nextEvent();
-                        contact.setPhoneNumber(event.asCharacters().getData());
-                        continue;
-                    }
-
-                    if (event.asStartElement().getName().getLocalPart()
-                            .equals(NOTES)) {
-                        event = eventReader.nextEvent();
-                        contact.setNotes(event.asCharacters().getData());
+                        item.setUrgent(event.asCharacters().getData());
                         continue;
                     }
                 }
 
-                // If we reach the end of a contact element, we add it to the list
+                // If we reach the end of a item element, we add it to the list
                 if (event.isEndElement()) {
                     EndElement endElement = event.asEndElement();
-                    if (endElement.getName().getLocalPart().equals(CONTACT)) {
-                        contacts.add(contact);
+                    if (endElement.getName().getLocalPart().equals(ITEM)) {
+                        items.add(item);
                     }
                 }
             }
@@ -114,14 +96,14 @@ public class ContactData {
         }
     }
 
-    public void saveContacts() {
+    public void saveItems() {
 
         try {
             // create an XMLOutputFactory
             XMLOutputFactory outputFactory = XMLOutputFactory.newInstance();
             // create XMLEventWriter
             XMLEventWriter eventWriter = outputFactory
-                    .createXMLEventWriter(new FileOutputStream(CONTACTS_FILE));
+                    .createXMLEventWriter(new FileOutputStream(ITEMS_FILE));
             // create an EventFactory
             XMLEventFactory eventFactory = XMLEventFactory.newInstance();
             XMLEvent end = eventFactory.createDTD("\n");
@@ -130,47 +112,46 @@ public class ContactData {
             eventWriter.add(startDocument);
             eventWriter.add(end);
 
-            StartElement contactsStartElement = eventFactory.createStartElement("",
-                    "", "contacts");
-            eventWriter.add(contactsStartElement);
+            StartElement itemsStartElement = eventFactory.createStartElement("",
+                    "", "items");
+            eventWriter.add(itemsStartElement);
             eventWriter.add(end);
 
-            for (Contact contact: contacts) {
-                saveContact(eventWriter, eventFactory, contact);
+            for (Item item: items) {
+                saveItem(eventWriter, eventFactory, item);
             }
 
-            eventWriter.add(eventFactory.createEndElement("", "", "contacts"));
+            eventWriter.add(eventFactory.createEndElement("", "", "items"));
             eventWriter.add(end);
             eventWriter.add(eventFactory.createEndDocument());
             eventWriter.close();
         }
         catch (FileNotFoundException e) {
-            System.out.println("Problem with Contacts file: " + e.getMessage());
+            System.out.println("Problem with Items file: " + e.getMessage());
             e.printStackTrace();
         }
         catch (XMLStreamException e) {
-            System.out.println("Problem writing contact: " + e.getMessage());
+            System.out.println("Problem writing item: " + e.getMessage());
             e.printStackTrace();
         }
     }
 
-    private void saveContact(XMLEventWriter eventWriter, XMLEventFactory eventFactory, Contact contact)
+    private void saveItem(XMLEventWriter eventWriter, XMLEventFactory eventFactory, Item item)
             throws FileNotFoundException, XMLStreamException {
 
         XMLEvent end = eventFactory.createDTD("\n");
 
-        // create contact open tag
+        // create item open tag
         StartElement configStartElement = eventFactory.createStartElement("",
-                "", CONTACT);
+                "", ITEM);
         eventWriter.add(configStartElement);
         eventWriter.add(end);
         // Write the different nodes
-        createNode(eventWriter, FIRST_NAME, contact.getFirstName());
-        createNode(eventWriter, LAST_NAME, contact.getLastName());
-        createNode(eventWriter, PHONE_NUMBER, contact.getPhoneNumber());
-        createNode(eventWriter, NOTES, contact.getNotes());
+        createNode(eventWriter, NAME, item.getName());
+        createNode(eventWriter, QUANTITY, item.getQuantity());
+        createNode(eventWriter, URGENT, item.getUrgent());
 
-        eventWriter.add(eventFactory.createEndElement("", "", CONTACT));
+        eventWriter.add(eventFactory.createEndElement("", "", ITEM));
         eventWriter.add(end);
     }
 

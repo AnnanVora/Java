@@ -19,7 +19,6 @@
 
             <Label text="Notes: " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
             <TextField fx:id="notesField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
-
         </GridPane>
     </content>
 </DialogPane>
