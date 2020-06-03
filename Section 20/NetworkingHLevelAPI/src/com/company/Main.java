@@ -1,8 +1,10 @@
 package com.company;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
-import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.URL;
 
 public class Main {
@@ -10,26 +12,33 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-//            URI uri = new URI("http://username:password@myserver.com:5000/catalogue/phones?os=android#samsung");
-//            URI uri = new URI("hello");R
-            URI baseURI = new URI("http://username:password@myserver.com:5000");
-            URI uri = new URI("/catalogue/phones?os=android#samsung");
-            URI resolvedURI = baseURI.resolve(uri);
-            URL url = resolvedURI.toURL();
-            System.out.println("URL = " + url);
-//            System.out.println("Scheme = " + uri.getScheme());
-//            System.out.println("Scheme-specific part = " + uri.getSchemeSpecificPart());
-//            System.out.println("Authority = " + uri.getAuthority());
-//            System.out.println("User info = " + uri.getUserInfo());
-//            System.out.println("Host = " + uri.getHost());
-//            System.out.println("Port = " + uri.getPort());
-//            System.out.println("Path = " + uri.getPath());
-//            System.out.println("Query = " + uri.getQuery());
-//            System.out.println("Fragment = " + uri.getFragment());
-        } catch (URISyntaxException e) {
-            System.out.println("URI bad syntax: " + e.getMessage());
+
+            URL url = new URL("https://api.flickr.com/services/feeds/photos_public.gne?tags=dogs");
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestMethod("GET");
+            connection.setRequestProperty("User-Agent", "Chrome");
+            int responseCode = connection.getResponseCode();
+            System.out.println("responseCode = " + responseCode);
+            connection.setConnectTimeout(12500);
+
+            if (responseCode != 200) {
+                System.out.println("Error reading webpage");
+                System.out.println(connection.getResponseMessage());
+                return;
+            }
+
+            BufferedReader inputReader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            String line;
+
+            while ((line = inputReader.readLine()) != null) {
+                System.out.println(line);
+            }
+            inputReader.close();
+
         } catch (MalformedURLException e) {
-            System.out.println("URL malformed: " + e.getMessage());
+            System.out.println("Malformed URl: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("IOException: " + e.getMessage());
         }
     }
 }
