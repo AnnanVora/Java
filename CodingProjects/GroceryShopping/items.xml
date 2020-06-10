@@ -2,7 +2,17 @@
 <items>
 <item>
 	<name>Bhindi</name>
-	<quantity>3kg</quantity>
+	<quantity>750g</quantity>
+	<urgent>Yes</urgent>
+</item>
+<item>
+	<name>Rice</name>
+	<quantity>10kg</quantity>
+	<urgent>Yes</urgent>
+</item>
+<item>
+	<name>Tindola</name>
+	<quantity>500g</quantity>
 	<urgent>No</urgent>
 </item>
 </items>

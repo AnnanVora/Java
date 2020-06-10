@@ -10,15 +10,14 @@ public class Location implements Serializable {
     private final Map<String, Integer> exits;
     private long serialVersionUID = 1L;
 
-    public Location(int locationID, String description, Map<String, Integer> exits)
-        {
+    public Location(int locationID, String description, Map<String, Integer> exits) {
         this.locationID = locationID;
         this.description = description;
         if(exits != null) {
             this.exits = new LinkedHashMap<>(exits);
         } else {
             this.exits = new LinkedHashMap<>();
-        }
+     	}
         this.exits.put("Q", 0);
     }
 

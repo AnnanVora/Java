@@ -13,13 +13,12 @@ public class ItemController {
     @FXML
     private TextField urgentField;
 
+
     public Item getNewItem() {
         String name = nameField.getText();
         String quantity = quantityField.getText();
         String urgent = urgentField.getText();
-
-        Item newItem = new Item(name, quantity, urgent);
-        return newItem;
+        return new Item(name, quantity, urgent);
     }
 
     public void editItem(Item item) {
