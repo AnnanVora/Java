@@ -25,11 +25,6 @@ public class Echoer extends Thread {
                 if (echoedString.equals("exit")) {
                     break;
                 }
-//                try {
-//                    Thread.sleep(10000);
-//                } catch (InterruptedException e) {
-//                    System.out.println("Thread interrupted");
-//                }
                 output.println(echoedString);
             }
         } catch (IOException e) {
