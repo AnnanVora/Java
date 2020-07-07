@@ -32,7 +32,7 @@ public class RailFence {
             encryptedText.append(chars[i]);
         }
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(String.valueOf(FileSystems.getDefault().getPath("HelloWorld.rfe"))))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(String.valueOf(FileSystems.getDefault().getPath(file + ".rfe"))))) {
             bw.write(encryptedText.toString().toUpperCase());
             Files.delete(file.toPath());
         } catch (IOException e) {
@@ -67,8 +67,9 @@ public class RailFence {
             decryptedText.append(a2.get(i));
         }
 
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(String.valueOf(FileSystems.getDefault().getPath(file + ".txt"))))) {
             bw.write(decryptedText.toString().toLowerCase());
+            Files.delete(file.toPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
