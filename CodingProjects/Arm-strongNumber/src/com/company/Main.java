@@ -1,12 +1,19 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please enter a number");
+        int limit = scanner.nextInt();
+
         int i = 0;
-        System.out.println( "The Armstrong numbers from 1 to 999999 are ");
-        while ( i != 999_999 ) {
+        System.out.println( "The Armstrong numbers from 1 to " + limit + " are ");
+        while ( i != limit ) {
             if (isArmstrong(i) != -1) {
                 System.out.println(isArmstrong(i));
             }
