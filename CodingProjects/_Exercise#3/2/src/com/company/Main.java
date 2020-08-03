@@ -1,11 +1,12 @@
 package com.company;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
         getPi();
     }
 
@@ -15,20 +16,25 @@ public class Main {
 
         while (true) {
             System.out.println("Enter accuracy");
-            boolean hasNextInt = scanner.hasNextInt();
-            double pi = 0.0;
+            boolean hasNextBigD = scanner.hasNextBigDecimal();
+            BigDecimal pi = new BigDecimal("0.0");
 
-            if (hasNextInt) {
+            if (hasNextBigD) {
 
-                int end = scanner.nextInt();
+                BigDecimal end = scanner.nextBigDecimal();
 
-                if (end < 0) {
+                if (end.compareTo(new BigDecimal("0")) < 0) {
                     continue;
                 }
 
-                for (int k = 0; k != end; k++) {
+                for (BigDecimal k = new BigDecimal("0"); k.compareTo(end) < 0; k = k.add(new BigDecimal("1"))) {
 
-                    pi += (((Math.pow(2, (k + 1))) * (Math.pow(getFactorial(k), 2))) / (getFactorial((2 * k) + 1)));
+                    BigDecimal term = new BigDecimal("0.0");
+                    term = term.add(Calculator.power(new BigDecimal("2"), k.add(new BigDecimal("1"))));
+                    term = term.multiply(Calculator.power(Calculator.getFactorial(k), new BigDecimal("2")));
+                    term = term.divide(Calculator.getFactorial((k.multiply(new BigDecimal("2"))).add(new BigDecimal("1"))), MathContext.DECIMAL128);
+
+                    pi = pi.add(term);
                 }
 
                 System.out.println(pi);
@@ -38,15 +44,4 @@ public class Main {
             }
         }
     }
-
-    public static double getFactorial(int number) {
-
-        double factorial = 1;
-
-        for (; number >= 1; number--) {
-            factorial *= number;
-        }
-        return factorial;
-    }
-
 }
