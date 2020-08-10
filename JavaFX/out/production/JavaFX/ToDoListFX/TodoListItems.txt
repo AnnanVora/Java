@@ -1,0 +1,9 @@
+Balance Sheet;Read a balance sheet HUL;20-05-2020
+Make a chocolate cake;Make a Chocolate Cake with Anaisha. Thin down condensed Milk. Make extra ganache;20-05-2020
+Order grocery;Order Groceries from Atul Stores;21-05-2020
+Order Veggies;Order Vegetables from Dasharat;22-05-2020
+Stationary;Check status of stationary order;21-05-2020
+Tinted Glasses;Get Glue from stationary order. Make Modge Podge. Follow recipe on annan.vora@gmail.com/_.18;24-05-2020
+Order Masalas;Order Masalas from Vile Parle. Make sure Mainsh gets it;22-05-2020
+Paper Pencil;Dad needs to order a Paper 53 pencil for me on my birthday;27-08-2020
+Paper Pencil;Dad had to order a Paper 53 pencil for me on my 12th Birthday;27-08-2019

@@ -1,7 +1,0 @@
-*.idea
-*.gradle
-*.iml
-*.ini
-*.pdf
-production/
-lib/

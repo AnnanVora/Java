@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Icons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Icons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

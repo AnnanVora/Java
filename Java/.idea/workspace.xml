@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c42f9d8f-3dc7-4e13-9eb6-b79cc85ff4b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/While/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces/ITelephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise1/src/SpeedConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise10/src/EqualityPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise11/src/PlayingCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise2/src/MegaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise3/src/BarkingDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise4/src/LeapYearCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise5/src/DecimalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise6/src/EqualSumChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise7/src/TeenNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise8/src/AreaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 4/CodingExercise9/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise12/src/NumberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise13/src/NumberOfDaysInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise14/src/SumOddRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise15/src/NumberPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise16/src/FirstLastDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise17/src/EvenDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise18/src/SharedDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise19/src/LastDigitChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise20/src/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise21/src/FactorPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise22/src/PerfectNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise23/src/NumberToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise24/src/FlourPacker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise25/src/LargestPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise26/src/DiagonalStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise27/src/InputCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 5/CodingExercise28/src/PaintJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise29/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise29/src/com/company/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise30/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise30/src/com/company/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise31/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise31/src/com/company/Wall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise32/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise32/src/com/company/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise33/src/com/company/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise33/src/com/company/Carpet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise33/src/com/company/Floor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise33/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise34/src/com/company/ComplexNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise34/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise35/src/com/company/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise35/src/com/company/Cylinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise35/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise36/src/com/company/Cuboid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise36/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CodingExercises/Section 6/CodingExercise36/src/com/company/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arm-strongNumber/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ArrayMinMax/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CompoundInterestCalculator/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cryptography/Hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cryptography/Hello.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cryptography/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cryptography/src/com/company/RailFence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cryptography/src/com/company/WoodStaff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/items.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/ItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/datamodel/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/datamodel/ItemData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/itemdialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/mainwindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GroceryShopping/src/sample/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir1/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir1/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir1/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir1/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir2/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir2/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir2/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir2/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir2/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir2/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir2/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir2/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Dir2/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/Dir2/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Examples/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir1/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir1/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir1/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir1/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir2/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir2/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir2/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir2/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir2/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir2/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir2/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir2/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir2/file3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir2/file3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/Dir2Copy/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/Dir2Copy/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/Dir2Copy/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/Dir2Copy/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/Dir2Copy/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/Dir2Copy/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/Dir2Copy/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/Dir2Copy/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/Dir2Copy/file3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/Dir2Copy/file3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/Dir4/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/Dir4/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTree/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/FileTree/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locations (2).dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Locations (2).dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locations (3).dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Locations (3).dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locations.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Locations.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locations_rand.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Locations_rand.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OutThere.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/OutThere.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WorkingDirectoryFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/WorkingDirectoryFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/data.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datacopy.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/datacopy.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/directions_big.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/directions_big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/SubdirectoryFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/files/SubdirectoryFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locations_big.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/locations_big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/Baseball.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/Baseball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/Soccer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/Soccer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/GenericsChallenge/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/GenericsChallenge/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/AusFootballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/AusFootballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/SoccerPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section10/Generics_Classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section10/Generics_Classes/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/AccessModifiers/Accessible.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/AccessModifiers/Accessible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/AccessModifiers/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/AccessModifiers/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/AccessModifiers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/AccessModifiers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Final/ExtendedPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Final/ExtendedPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Final/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Final/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Final/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Final/Password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Final/SIBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Final/SIBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Final/SomeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Final/SomeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/GameTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/GameTest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/PackageChallenge/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/PackageChallenge/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/PackageChallenge_Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/PackageChallenge_Test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/PackageDemo/ISavable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/PackageDemo/ISavable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/PackageDemo/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/PackageDemo/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/PackageDemo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/PackageDemo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Packages/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Packages/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Scope/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Scope/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Scope/ScopeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Scope/ScopeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/ScopeChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/ScopeChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/ScopeChallenge/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/ScopeChallenge/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Static/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Static/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/Static/StaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/Static/StaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/WinDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/WinDemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section11/WinDemo/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section11/WinDemo/MyWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/Adventure/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/Adventure/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/Adventure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/Adventure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsAndMaps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsAndMaps/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsAndMaps/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsAndMaps/MapProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsAndMaps/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsAndMaps/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsChallenge/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsChallenge/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsChallenge/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsChallenge/StockItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/CollectionsChallenge/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/CollectionsChallenge/StockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSets/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSets/HeavenlyBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSets/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSets/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSetsChallenge/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSetsChallenge/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSetsChallenge/DogMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSetsChallenge/DogMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSetsChallenge/Labrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSetsChallenge/Labrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsAndHashSetsChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsAndHashSetsChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Asteroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Asteroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Comet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Comet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/DwarfPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/DwarfPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/HeavenlyBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Moon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Moon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SetsChallenge/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SetsChallenge/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SortedCollections/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SortedCollections/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SortedCollections/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SortedCollections/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SortedCollections/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SortedCollections/StockItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SortedCollections/StockList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SortedCollections/StockList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section12/SymAndAsymSets/SetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section12/SymAndAsymSets/SetMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section13/Description" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section13/Description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/IndexRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/IndexRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/Locations.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/Locations.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/Locations_rand.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/Locations_rand.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/AdventureGameRAMFile/ShiftInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/AdventureGameRAMFile/ShiftInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/CopyFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/CopyFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir1/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir1/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir1/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir1/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir2/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir2/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir2/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir2/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir2/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir2/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir2/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir2/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir2/file3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir2/file3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/Dir2Copy/file3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/Dir4/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/Dir4/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/FileTree/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/FileTree/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Directories/PrintFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Directories/PrintFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Exceptions/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Exceptions/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutput/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutput/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutput/Locations.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutput/Locations.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutput/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutput/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutput/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutput/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutput/ShiftInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutput/ShiftInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/Locations.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/Locations.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/Locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/Locations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/ShiftInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/ShiftInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/directions_big.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/directions_big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/InputOutputNIO/locations_big.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/InputOutputNIO/locations_big.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/JavaNIO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/JavaNIO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/JavaNIO/data.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/JavaNIO/data.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/JavaNIO/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/JavaNIO/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/JavaNIO/datacopy.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/JavaNIO/datacopy.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir1/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir1/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir1/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir1/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir2/Dir3/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir2/Dir3/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir2/Dir3/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir2/Dir3/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir2/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir2/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir2/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir2/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/Dir2/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/Dir2/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Examples/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Examples/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/WorkingDirectoryFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/WorkingDirectoryFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section14/Paths/files/SubdirectoryFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section14/Paths/files/SubdirectoryFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part1/Challenge7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part2/Challenge9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section17/RegularExpressionsChallenge/part3/Challenge14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/Banking/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/Banking/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/Banking/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/Banking/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/Banking/BankAccountTestParameterized.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/Banking/BankAccountTestParameterized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/Banking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/Banking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/DebuggerDemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/DebuggerDemo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/DebuggerDemo/StringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/DebuggerDemo/StringUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge1/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge1/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge10/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge10/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge2/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge2/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge3/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge3/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge4/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge4/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge5/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge5/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge6/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge6/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge7/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge7/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge8/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge8/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section18/challenge9/UtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section18/challenge9/UtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/EchoClient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/EchoClient/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/EchoServer/Echoer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/EchoServer/Echoer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/EchoServer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/EchoServer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/NetworkingHLevelAPI/ApacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/NetworkingHLevelAPI/ApacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/NetworkingHLevelAPI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/NetworkingHLevelAPI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/UDPClient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/UDPClient/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section20/UDPServer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section20/UDPServer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/ByteShortIntegerLong/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/ByteShortIntegerLong/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/CharAndBoolean/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/CharAndBoolean/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/FloatAndDouble/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/FloatAndDouble/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/HelloWorld/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/HelloWorld/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/Operators/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/Operators/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/PrimitiveTypesChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/PrimitiveTypesChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section3/Strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section3/Strings/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/IfKeywordAndCodeBlocks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/IfKeywordAndCodeBlocks/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/KeywordsAndExpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/KeywordsAndExpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/MethodOverloading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/MethodOverloading/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/Methods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/Methods/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/SecondAndMinuteChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/SecondAndMinuteChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section4/StatementsWhiteSpacingAndIndenting/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section4/StatementsWhiteSpacingAndIndenting/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/DayOfTheWeekChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/DayOfTheWeekChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/DigitSumChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/DigitSumChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/ForLoop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/ForLoop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/MinAndMaxInputChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/MinAndMaxInputChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/ParsingValuesFromString/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/ParsingValuesFromString/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/ReadingUserInput/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/ReadingUserInput/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/ReadingUserInputChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/ReadingUserInputChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/Sum3And5Challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/Sum3And5Challenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/Switch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section5/Switch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section5/While/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Classes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Classes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Classes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Constructors/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Constructors/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Constructors/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Constructors/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Constructors/VipCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Constructors/VipCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Inheritance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Inheritance/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Inheritance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Inheritance/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Inheritance/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Inheritance/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/Inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/Inheritance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/InheritanceChallenge/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/InheritanceChallenge/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/InheritanceChallenge/Hurricane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/InheritanceChallenge/Hurricane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/InheritanceChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/InheritanceChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/InheritanceChallenge/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/InheritanceChallenge/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/OOPChallenge/BaseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/OOPChallenge/BaseBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/OOPChallenge/DeluxeBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/OOPChallenge/DeluxeBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/OOPChallenge/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/OOPChallenge/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section6/OOPChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section6/OOPChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Dimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Dimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Resolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Resolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Composition/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Composition/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/Bed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/BedRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/BedRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/Celing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/Celing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/CompositionChallenge/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/CompositionChallenge/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Encapsulation/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Encapsulation/EnhancedPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Encapsulation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Encapsulation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Encapsulation/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Encapsulation/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/EncapsulationChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/EncapsulationChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/EncapsulationChallenge/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/EncapsulationChallenge/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/Polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/Polymorphism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section7/PolymorphismChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section7/PolymorphismChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ArrayListChallenge/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ArrayListChallenge/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ArrayListChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ArrayListChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ArrayListChallenge/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ArrayListChallenge/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/Arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ArraysChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ArraysChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/AutoBoxingAndUnboxingChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/AutoboxingAndUnboxing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/AutoboxingAndUnboxing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedList/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedList/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedList/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedList/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedListChallenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedListChallenge/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedListChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedListChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/LinkedListChallenge/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/LinkedListChallenge/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ListAndArrayList/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ListAndArrayList/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ListAndArrayList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ListAndArrayList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/MinimumElementChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/MinimumElementChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ReferenceVsValueTypes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ReferenceVsValueTypes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section8/ReverseArrayChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section8/ReverseArrayChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/CanFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Abstraction/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Abstraction/Penguin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/ListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/NodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/NodeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/AbstractionChallenge/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/AbstractionChallenge/SearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClasses/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClasses/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClasses/Gearbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClasses/Gearbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClasses/Types Of  Nested Classes" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClasses/Types Of  Nested Classes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClassesChallenge/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClassesChallenge/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClassesChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClassesChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InnerClassesChallenge/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InnerClassesChallenge/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces/DeskPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces/DeskPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces/Gearbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces/Gearbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces/ITelephone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InterfacesChallenge/ISavable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InterfacesChallenge/ISavable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InterfacesChallenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InterfacesChallenge/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InterfacesChallenge/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InterfacesChallenge/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/InterfacesChallenge/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/InterfacesChallenge/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces_LinkedLIst/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces_LinkedLIst/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces_LinkedLIst/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces_LinkedLIst/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/annan/section9/Interfaces_LinkedLIst/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/com/annan/section9/Interfaces_LinkedLIst/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathExponents/src/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathExponents/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#1/1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#1/2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#1/3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#1/4/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#1/5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#2/1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#2/2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#2/3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#2/4/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#2/5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/2/src/com/company/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/3_2(Sqrt2)/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/4/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#3/5_2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#4/1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#4/2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#4/3/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#4/4/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Exercise#4/5/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ControlsFX/Icons.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ControlsFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ControlsFX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ControlsFX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ControlsFX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/EventsFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/EventsFX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/EventsFX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/EventsFX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/HelloWorldFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/HelloWorldFX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/HelloWorldFX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/HelloWorldFX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaApplictionFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaApplictionFX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaApplictionFX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaApplictionFX/src/sample/Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaApplictionFX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/contacts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/ContactController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/contactdialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/datamodel/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/datamodel/ContactData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/JavaFXChallenge/src/sample/main.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/LayoutsFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/LayoutsFX/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/LayoutsFX/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/LayoutsFX/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/SceneBuilder/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/SceneBuilder/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/SceneBuilder/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/SceneBuilder/src/sample/Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/SceneBuilder/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/TodoListItems.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/DialogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/datamodel/TodoData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/datamodel/TodoItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/mainwindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section 13/ToDoListFX/src/sample/todolist/todoItemDialog.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ftcuTjVqvlvGvBt1mauu2ZFkAu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/annan/exercises" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mkvor\Documents\Java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mkvor\Documents\Java\CodingProjects\Java\src\com\annan\exercises" />
+      <recent name="C:\Users\mkvor\Documents\Java\CodingProjects\Java\src\com\annan\projects\exercises\ex4\subsequence" />
+      <recent name="C:\Users\mkvor\Documents\Java\CodingProjects\Java\src\com\annan\projects\exercises\ex4\intersection" />
+      <recent name="C:\Users\mkvor\Documents\Java\CodingProjects\Java\src\com\annan\projects\exercises\ex4\merge" />
+      <recent name="C:\Users\mkvor\Documents\Java\CodingProjects\Java\src\com\annan\projects\exercises\ex4\insertionsort" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c42f9d8f-3dc7-4e13-9eb6-b79cc85ff4b9" name="Default Changelist" comment="" />
+      <created>1597041051738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597041051738</updated>
+      <workItem from="1597041052952" duration="323000" />
+      <workItem from="1597042870834" duration="2862000" />
+      <workItem from="1597052891035" duration="2127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="404" y="241" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597053024532">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="404" y="241" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.720@0.0.1280.720" timestamp="1597053024532" />
+    <state x="438" y="231" key="DetectedRootsChooserDialog" timestamp="1597041193347">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="438" y="231" key="DetectedRootsChooserDialog/0.0.1280.720@0.0.1280.720" timestamp="1597041193347" />
+    <state x="348" y="102" key="FileChooserDialogImpl" timestamp="1597041262607">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="348" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1597041262607" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1597052941029">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1597052941029" />
+  </component>
+</project>
